@@ -131,6 +131,18 @@ img {
 /* Tablet Version */
 @media all and (max-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
+    }
+}
+
+/* Mobile Version */
+@media all and (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
+        margin-bottom: 80px;
     }
 }
